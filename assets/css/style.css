@@ -1,0 +1,189 @@
+
+/* Components CSS
+    ========================================================================== */
+.btn.app-primary {
+    background-color: #4C5FF7;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 12px;
+    padding: 18px 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBFBFF;
+}
+
+
+
+/* Header CSS
+    ========================================================================== */
+.general_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 25px 0;
+}
+
+.general_header.scrolled {
+    background-color: #01011a;
+    -webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.22);
+    box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.22);
+}
+
+.header-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    background-color: #020433;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0 4px 6px -2px rgba(16, 24, 40, 0.03);
+    backdrop-filter: blur(16px);
+    border-radius: 12px;
+}
+
+.header-nav-item a {
+    padding: 6px 16px;
+    letter-spacing: 0.2px;
+    color: #98A2B3;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 6px;
+}
+
+.header-nav-item.active a {
+    background-color: #ebecfe;
+    color: #010163;
+}
+
+.social-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Slider CSS
+    ========================================================================== */
+.hero-outer {
+    position: relative;
+}
+
+.hero-background {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+
+/* Company Slider CSS
+    ========================================================================== */
+.app-company-outer {
+    background-color: #fbfaff;
+    padding: 64px 0;
+}
+
+/* Services Section CSS
+    ========================================================================== */
+.services-section {
+    padding-top: 64px;
+    margin-bottom: 100px;
+}
+
+.services-icon {
+    border: 8px solid #EBEDFF;
+    background-color: #C9CFFF;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom:  20px;
+}
+
+.services-head {
+    margin-bottom: 80px;
+}
+
+.macbook-section {
+    position: absolute;
+    background: #F9FAFB;
+    border-radius: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    left: 25px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.hand-drawn {
+    position: absolute;
+    right: -200px;
+    bottom: 0;
+}
+
+
+/* Footer Section CSS
+    ========================================================================== */
+.footer-section {
+    height: 200px;
+    background: #FBFBFF;
+    border: 1px solid #EAECF0;
+    box-shadow: 0 20px 24px -4px rgba(16, 24, 40, 0.08), 0 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 16px;
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -80px;
+    position: relative;
+    z-index: 2;
+}
+
+.general_footer {
+    background: #010163;
+}
+
+.general_footer .container {
+    padding-top: 150px;
+    display: flex;
+    padding-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.linear-1 {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.linear-2 {
+    right: 15px;
+    top: 80px;
+    position: absolute;
+    bottom: 0;
+}
