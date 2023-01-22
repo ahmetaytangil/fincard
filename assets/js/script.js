@@ -14,7 +14,7 @@ new Swiper(".company-slider", {
 });
 
 $(document).ready(function () {
-    let distanceFromRight = $(window).width() - ($(".macbook-section").offset().left + $(".macbook-section").width());
+    let distanceFromRight = $(window).width() - ($(".macbook-section").offset()?.left + $(".macbook-section").width());
 
     $(".macbook-section").css('right', `-${distanceFromRight}px`)
 
