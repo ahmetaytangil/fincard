@@ -2,21 +2,95 @@
     ========================================================================== */
 
 
+.menu-opener {
+    display: none;
+}
+
 /* XL */
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+    .macbook-section, .hand-drawn {
+        display: none;
+    }
+
+
+}
 
 
 /* LG */
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    html, body {
+        font-size: 14px;
+    }
+}
 
 
 /* MD */
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .menu-opener {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .header-nav {
+        position: fixed;
+        right: -150%;
+        top: 0;
+        bottom: 0;
+        border-radius: 0;
+        border: none;
+        width: 300px;
+        padding: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: all .3s ease;
+    }
+
+    .header-nav.opened {
+        right: 0;
+    }
+}
+
+.macbook-section-2 {
+    display: none;
+}
 
 
 /* SM */
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    html, body {
+        font-size: 12px;
+    }
+
+    .app-primary {
+        width: 100%;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: auto;
+        padding: 15px;
+    }
+
+    .macbook-section-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .hand-drawn {
+        display: block;
+        right: 0;
+        bottom: -15px;
+        width: 100px;
+    }
+}

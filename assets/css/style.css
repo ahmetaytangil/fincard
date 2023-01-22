@@ -74,6 +74,21 @@
     justify-content: center;
 }
 
+.general_header.light {
+    background-color: #fbfaff;
+}
+
+.general_header.light + .general_main {
+    padding-top: 160px;
+}
+
+.general_header.light .header-nav {
+    background-color: #fff;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0 4px 6px -2px rgba(16, 24, 40, 0.03);
+    backdrop-filter: blur(16px);
+}
+
 /* Hero Slider CSS
     ========================================================================== */
 .hero-outer {
@@ -186,4 +201,25 @@
     top: 80px;
     position: absolute;
     bottom: 0;
+}
+
+.profile-outer {
+    margin-bottom: 100px;
+}
+
+.app-list li {
+    padding-left: 15px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.app-list li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #344054;
 }

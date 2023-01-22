@@ -458,6 +458,10 @@ body {
     font-family: 'Lexend', sans-serif;
 }
 
+body.secondary {
+    background-color: #fbfaff;
+}
+
 .font-sora {
     font-family: 'Sora', sans-serif !important;
 }
@@ -718,4 +722,12 @@ body {
 
 .c-grey {
     color: #667085!important;
+}
+
+.c-4C5FF7 {
+    color: #4C5FF7 !important;
+}
+
+.c-344054 {
+    color: #344054 !important;
 }

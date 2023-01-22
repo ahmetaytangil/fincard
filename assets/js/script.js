@@ -1,7 +1,16 @@
 new Swiper(".company-slider", {
-    slidesPerView: 6,
-    spaceBetween: 5,
-    loop: true
+    slidesPerView: 2,
+    spaceBetween: 2,
+    loop: true,
+    breakpoints: {
+        576: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+        },
+        992: {
+            slidesPerView: 6
+        }
+    }
 });
 
 $(document).ready(function () {
@@ -24,4 +33,14 @@ $(document).ready(function () {
 
         $(".macbook-section").css('right', `-${distanceFromRight}px`)
     });
+
+    $('.menu-opener').click(function () {
+        $('.header-nav').addClass('opened')
+    })
+
+    $('.menu-closer').click(function () {
+        $('.header-nav').removeClass('opened')
+    })
+
+
 });
