@@ -643,7 +643,7 @@ body.secondary {
     font-weight: 300 !important;
 }
 
-.fw-400 {
+.fw-300 {
     font-weight: 400 !important;
 }
 
@@ -730,4 +730,10 @@ body.secondary {
 
 .c-344054 {
     color: #344054 !important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1280px!important;
+    }
 }
