@@ -35,7 +35,7 @@
 }
 
 .header-nav {
-    background-color: #020433;
+    background-color: rgba(255, 255, 255, 0.15);
     padding: 6px;
     display: flex;
     align-items: center;
@@ -52,7 +52,11 @@
     width: 333px;
 }
 
-.header-nav-item a {
+.header-nav-social-item {
+    display: none;
+}
+
+.header-nav-item > a {
     padding: 6px 16px;
     letter-spacing: 0.2px;
     color: #98A2B3;
@@ -64,7 +68,7 @@
     text-transform: capitalize;
 }
 
-.header-nav-item.active a {
+.header-nav-item.active > a {
     background-color: #ebecfe;
     color: #010163;
 }
