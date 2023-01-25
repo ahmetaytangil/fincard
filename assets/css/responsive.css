@@ -177,6 +177,14 @@
         margin-bottom: 8px!important;
     }
 
+    .mb-m-4 {
+        margin-bottom: 4px!important;
+    }
+
+    .w-m-100 {
+        width: 100%;
+    }
+
 }
 
 .macbook-section-2 {
