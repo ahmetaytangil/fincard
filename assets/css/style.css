@@ -95,6 +95,10 @@
     backdrop-filter: blur(16px);
 }
 
+.general_header.page {
+    position: relative;
+    margin-bottom: 64px;
+}
 
 /* Hero Slider CSS
     ========================================================================== */
