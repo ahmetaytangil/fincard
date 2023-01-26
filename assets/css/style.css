@@ -275,6 +275,10 @@
     color: #fff;
 }
 
+.app-secondary:hover {
+    color: #fff;
+}
+
 input::placeholder, textarea::placeholder {
     font-weight: 300!important;
     color: #98A2B3;

@@ -77,7 +77,7 @@
 
     .header-nav-item.active > a {
         background-color: transparent;
-        color: #010163;
+        color: #4C5FF7;
     }
 
     .header-nav.opened {
@@ -225,6 +225,8 @@
         width: 100%;
         position: relative;
         margin-top: 60px;
+        background: #F9FAFB;
+        padding-top: 20px;
     }
 
     .hero-background {
